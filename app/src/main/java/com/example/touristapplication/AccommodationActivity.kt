@@ -270,7 +270,9 @@ fun BottomAppBar() {
                             tint = Color.White
                         )
                         Text(
-                            text = "Hotel"
+                            text = "Hotel",
+                            color = Color.Blue,
+                            fontWeight = FontWeight.ExtraBold
                         )
                     }
                 }
@@ -290,10 +292,12 @@ fun BottomAppBar() {
                         Icon(
                             Icons.Filled.Home,
                             contentDescription = "Localized description",
-                            tint = Color.White
+                            tint = Color.Red
                         )
                         Text(
-                            text = "Rentals"
+                            text = "Rentals",
+                            color = Color.Magenta,
+                            fontWeight = FontWeight.ExtraBold
                         )
                     }
                 }
@@ -313,10 +317,12 @@ fun BottomAppBar() {
                         Icon(
                             Icons.Filled.Home,
                             contentDescription = "Localized description",
-                            tint = Color.White
+                            tint = Color.Blue
                         )
                         Text(
-                            text = "Restaurant"
+                            text = "Restaurant",
+                            color = Color.Red,
+                            fontWeight = FontWeight.ExtraBold
                         )
                     }
                 }
