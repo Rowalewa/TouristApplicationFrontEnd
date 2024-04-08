@@ -85,25 +85,25 @@ class AccommodationActivity : ComponentActivity() {
                     BottomAppBar()
                     val departments = listOf(
                         "Forest Haven Estate - Modern Villa",
-                        "Ophthalmology",
-                        "Gynaecology",
-                        "Dentistry",
-                        "Pharmacy",
-                        "Anaesthetics",
-                        "Paediatrics",
-                        "Dermatology",
-                        "Cardiology",
-                        "Orthopaedics",
-                        "Ornithology",
-                        "Ecology",
-                        "Mycology",
-                        "Ichthyology",
-                        "Entomology",
-                        "Taxonomy",
-                        "Genetics",
-                        "Evolution",
-                        "Growth and Development",
-                        "Excretion"
+                        "Four Seasons Hotel Gresham Palace - Budapest",
+                        "Soneva Fushi - Maldives",
+                        "Mandarin Oriental - Bangkok",
+                        "Aman Tokyo - Japan",
+                        "JW Marriott Marquis Hotel - Dubai",
+                        "La Mamounia - Marrakech, Morocco",
+                        "Raffles - Singapore",
+                        "Rosewood - Hong Kong",
+                        "The Upper House - Hong Kong",
+                        "Capella - Bangkok",
+                        "The Calile - Brisbane",
+                        "Aman Venice - Venice",
+                        "Claridge's - London",
+                        "Hotel Esencia - Tulum",
+                        "Nihi Sumba - Sumba Island",
+                        "Four Seasons Madrid - Madrid",
+                        "The Newt - Bruton",
+                        "Amangalla - Galle",
+                        "The Siam - Bangkok"
                     )
                     val images = listOf(
                         painterResource(R.drawable.car),
@@ -132,7 +132,7 @@ class AccommodationActivity : ComponentActivity() {
                         modifier = Modifier
                             .padding(
                                 start = 10.dp,
-                                top = 80.dp,
+                                top = 120.dp,
                                 end = 20.dp,
                                 bottom = 100.dp
                             )
